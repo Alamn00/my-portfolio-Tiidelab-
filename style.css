@@ -1,0 +1,79 @@
+*{
+    padding: 1;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainpage{ 
+    padding: 20px;
+    margin: 20px;
+    background-color: aqua;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
+    font-weight: bold;
+
+}
+.navigation{
+    border: solid teal;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin-left: 22rem;
+    margin-right: 22rem;
+}
+.heading{
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow:2px 3px gray;
+    text-decoration-style:2px 3px double;
+
+}
+.skills  {
+    padding-left: 30%;
+}
+.section{
+    text-align: justify;
+    padding: 20px;
+    border: solid teal;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.btn{
+    color: teal;
+    background-color: white;
+    border: solid teal;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    font-style: italic;
+}
+.img{
+    width: 300px;
+    border-radius: 100px;
+    border: solid white;
+}
+
+#project{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 5rem;
+    border: solid teal;
+    border-radius: 10px;
+}
+.img:hover{
+    width: 350px;
+    border: solid teal;
+    transition: 0.5s;
+}
+#project div{
+    margin: 1rem;
+}
