@@ -16,6 +16,8 @@
 
 }
 .navigation{
+    position: sticky;
+    top: 0;
     border: solid teal;
     padding: 20px;
     text-align: center;
@@ -36,10 +38,12 @@
 }
 .section{
     text-align: justify;
-    padding: 20px;
+    padding: 5rem;
     border: solid teal;
     border-radius: 10px;
     background-color: white;
+    line-height: 3rem;
+
     
 }
 .btn{
