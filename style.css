@@ -40,9 +40,9 @@
     text-align: justify;
     padding: 5rem;
     border: solid teal;
-    border-radius: 10px;
     background-color: white;
     line-height: 3rem;
+    box-shadow: 3px 4 px;
 
     
 }
