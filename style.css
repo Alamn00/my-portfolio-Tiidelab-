@@ -1,13 +1,20 @@
 *{
-    padding: 1;
+    /* padding: 1;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
+}
+@media screen and (min-width: 400px ) {
+    #mainpage{
+        font-size: larger; 
+        background-color: aqua;
+    }
+    
 }
 
 #mainpage{ 
-    padding: 20px;
-    margin: 20px;
-    background-color: aqua;
+    /* padding: 10px;
+    margin: 20px; */
+    background-color: grey;
     text-align: center;
     font-style: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,18 +25,17 @@
 .navigation{
     position: sticky;
     top: 0;
-    border: solid teal;
+   
     padding: 20px;
     text-align: center;
     background-color: white;
-    margin-left: 22rem;
-    margin-right: 22rem;
+
 }
 .heading{
     padding: 20px;
     color: white;
     text-transform: uppercase;
-    text-shadow:2px 3px gray;
+    text-shadow:2px 3px black;
     text-decoration-style:2px 3px double;
 
 }
@@ -38,26 +44,28 @@
 }
 .section{
     text-align: justify;
-    padding: 5rem;
-    border: solid teal;
+    padding: 3rem;
+    border: solid rgb(117, 115, 115);
     background-color: white;
     line-height: 3rem;
-    box-shadow: 3px 4 px;
+    box-shadow: solid white 1px 5px;
 
     
 }
-.btn{
-    color: teal;
-    background-color: white;
-    border: solid teal;
-    border-radius: 10px;
+.btn a{
+    color: black;
+    font-weight: bold ;
+    text-decoration: none;
+    /* background-color: white; */
+    /* border: solid grey; */
+    /* border-radius: 10px; */
 }
-.btn:hover{
+.btn:hover a{
     background-color: black;
-    color: white;
+    color: whitesmoke;
     font-size: 20px;
     transition: 0.5s;
-    font-style: italic;
+    font-style:normal
 }
 .img{
     width: 300px;
@@ -65,19 +73,64 @@
     border: solid white;
 }
 
+/* .img2{
+    width: 300px;
+    border-radius: 100px;
+    border: solid white;
+}
+.img3{
+    width: 300px;
+    border-radius: 100px;
+    border: solid white;
+}
+.img4{
+    width: 300px;
+    border-radius: 100px;
+    border: solid white;
+} */
+
 #project{
     display: flex;
     justify-content: center;
     background-color: white;
     padding: 5rem;
-    border: solid teal;
+    border: solid grey;
     border-radius: 10px;
 }
 .img:hover{
     width: 350px;
-    border: solid teal;
+    border: solid grey;
     transition: 0.5s;
 }
 #project div{
     margin: 1rem;
+}
+.abtmesection{
+    display:flex ;
+    justify-content: center;
+}
+
+.photoAlbum img{
+    width: 150px;  
+    border: solid white;
+    border: solid black;
+}
+.photoAlbum{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+
+@media screen and (max-width: 920px) {
+    #project{
+        display: block;
+        padding: 0rem;
+    }
+
+    .abtmesection{
+        display:block;
+
+        
+    }
 }
